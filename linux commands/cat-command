@@ -1,0 +1,11 @@
+cat command
+
+The cat command is one of the most universal tools yet all it does 
+is copy standard input to standard output 
+
+cat 
+
+*create file (creating single file)
+*copy file (To copy the content of x into y)
+*concatenate file (To add more than one file into single file)
+*Tac (To see the content in bottom to top 
