@@ -2,3 +2,4 @@ nano is a simple, user-friendly command-line text editor commonly used in Unix-l
 
 You can open multiple files by specifying them in the command
 ex:nano file1 file2
+.
