@@ -1,0 +1,6 @@
+The cat command in Linux is used to concatenate and display the contents of files. It's a versatile command that can be used for various purposes. Here are some basic points about the cat command
+
+
+cat is commonly used for displaying file contents, concatenating files, and creating new files.
+Options like -n for line numbers and -s for suppressing empty lines provide additional functionality.
+
