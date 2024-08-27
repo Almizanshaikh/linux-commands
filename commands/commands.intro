@@ -1,0 +1,17 @@
+1) who : This command show the username of user
+2) Hostname : showed the machine name 
+3) Sudo su : switch to super user
+4) prompt means they show the (root) when switch the normal user to super user 
+5) pwd : print working directory
+6) forward slash after any root user and root command
+7) uname : They show the what OS i am using 
+8) mkdir : make Directoey by using this command 
+9) ls : stand for list 
+10) ls -l : This command show the long list 
+11) ls -la : show the hidden and non hidden files 
+12) ls -a : show only hidden files 
+13) man : long list of subs option 
+14) ll : show the long list with the forward slash 
+15) ls -R : ls: This is the basic command used to list files and directories in the current directory.
+-R (Recursive): This option tells ls to list all files and directories in the specified
+16) ls -r : The command ls -r in Unix/Linux systems is used to list directory contents in reverse order.
