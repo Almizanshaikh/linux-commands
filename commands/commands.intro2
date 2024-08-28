@@ -1,0 +1,10 @@
+1) mkdir : The commands create a Directories 
+2) mkdir -p : create a directories into a directories
+3) rmdir : remove empty directories 
+4) rm -r : remove specific files and directories with data 
+5) rm -rf : remove files and directories forcefully 
+6) rm : rmove empty files 
+7) rm -i : files and directories interactively remove
+8) ctrl c : come out from cat command 
+9) cat > command : create files with data
+10) cat >> : edit a file content 
