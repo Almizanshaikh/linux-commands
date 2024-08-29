@@ -1,0 +1,11 @@
+1) cp : This command copy and files and directories 
+2) cp -r : copy the directories and files with data
+3) mv : This command have two features u can rename the file and copy and past 
+4) sudo apt install : to install the packages 
+5) sudo apt remove : to remove install packages 
+6) tree : tree gives you tree structur of directories 
+7) cal : this command show the calender 
+8) head : show the firts ten lines of files
+9) tail : show the last ten lines of files
+10) tee : This command will list the contents of the current directory in long format (ls -l),
+ display the output in the terminal, and simultaneously write it to a file named output.txt.
