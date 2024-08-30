@@ -1,0 +1,19 @@
+1) cat file name |xargs rm 
+2) cat file name |xargs touch 
+3) The uniq command in Unix/Linux is used to filter out or report repeated lines in a file or from standard input. 
+It reads from a sorted file or stream and removes adjacent duplicate lines.
+4) uniq -u 
+5) uniq -d show the duplicate of the any line 
+6) The command cat /etc/passwd is used in Unix/Linux systems to display the contents of the /etc/passwd file. 
+This file contains essential information about all user accounts on the system.
+7) cat /etc/group :each line in the /etc/group file represents a different group and includes the following fields, separated by colons (:):
+8) chmod : this command change the read write and excute mode you can use the alphabet and numbers 
+example : chmod 777 filename , chmod u+r,g-w,o=rwx
+9) useradd : this command make a new user for you 
+10) groupadd : create a new group 
+11) sudo passwd username : you can create a password for newuser 
+12) this is a format to crrate a user ( sudo useradd -m -d /home/username/bin/bash/username 
+
+ 
+
+
