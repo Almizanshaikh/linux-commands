@@ -1,0 +1,39 @@
+1) to list out all the files present in current 
+directory
+
+ls *
+
+ls file1
+
+2) list out all the files with some extension
+
+ls *.*
+
+3) list out all .txt files
+ls *.txt
+
+4) list out only .java files
+
+ls *.java
+
+5) list out files starting with letter a 
+
+ls a*
+
+6) list out all the files starts with t and ends with s
+
+ls t*s
+7) list out all the files whose name contains only two characters
+
+ls ??
+8) list out all the files whose name contains only three characters
+
+ls ?? ?
+
+9) list out all the file where filenames contains 2 char and first character should be x
+
+ls x?
+
+10) list out all the file where filename contains atleast 3 chars
+
+ls ???*
