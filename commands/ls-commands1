@@ -1,0 +1,33 @@
+
+11) list out all the files where filename starts with s or t or r
+ls [str]*
+
+12) list out all files where filename should not start with s or t or r
+ls [!str]*
+
+13) list out all the files starts with lower case alphabets a,b, c ....z
+ls [a-z]*
+
+ls [[:lower:]]*
+
+14) list out all the files starts with lower case alphabets A,B, C ....Z
+
+ls [a-z]*
+
+ls [[:upper:]]
+
+15) list out all the files start with digit (0,1,2,...9)
+
+ls [0-9]*
+ls [[:digit:]]
+
+16) list out all the file where first letter should be
+ uppercase letter,
+	second letter should be digit and 
+	third letter should be lower case letter
+	
+	ls [A-Z][	][a-z]
+	
+	ls [[:upper:]][[:digit:]][[:lower:]]
+	
+	ls [[:alnum:]]
