@@ -1,0 +1,33 @@
+The uniq command in Linux, short for “unique,” is used to isolate unique strings in text documents or standard input. It’s a pretty basic command with a simple purpose, but comes with a few options under the hood that prove themselves handy under a lot of scenarios.
+
+
+uniq can do things like suppress duplicate lines or count the number of times each word occurs in a piece of text. Linux administrators will find this useful when parsing large log files. For example, rather than seeing the same “error” line repeatedly, a log file can be passed to uniq, which will just tell you how many times the error occurs, giving you a much cleaner, human readable output.
+
+$ uniq distros.txt
+$ cat distros.txt | sort | uniq
+Use the -c option with uniq if you want to count the number of times each line is repeated.
+Use the -d option to only list the lines that have repeats.
+By default, uniq is case sensitive, meaning it will not consider “Ubuntu” and “ubuntu” to be repeat lines. This behavior can be changed with the -i option.
+$ uniq -i distros.txt
+Use the -u option to only output lines that don’t have any repeats.
+
+xargs with examples
+
+Let’s dive right in with a simple xargs example:
+
+$ echo '1' > 1
+$ echo '2' > 2
+$ echo '3' > 3
+$ ls
+1  2  3
+$ ls | xargs cat
+1
+2
+3
+
+cat test.txt |xargs rm
+
+$ ls | xargs -p rm
+rm 1.txt 2.txt 3.txt ?...y
+
+$ ls | xargs -t -n 1 cat
