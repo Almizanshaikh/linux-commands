@@ -1,0 +1,10 @@
+ The echo command is a versatile tool for displaying text and variables in Linux.
+ It can be used in scripts to output information or to manipulate strings wit various options like -e for
+ special characters and -n for controlling line breaks.
+
+example
+echo "Hello, World!"
+Hello, World!
+
+
+
