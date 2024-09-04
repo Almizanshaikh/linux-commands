@@ -1,0 +1,17 @@
+The tar command in Linux is used to create, maintain, and extract files from an archive. The name stands for "tape archive," reflecting its original purpose of backing up data to tape drives. 
+Today, it's commonly used to compress and package files for storage or transfer.
+
+basic syntex
+tar [options] [archive_file] [file_or_directory_to_archive]
+
+Common Options:
+-c: Create a new archive.
+-x: Extract files from an archive.
+-v: Verbose mode (shows progress).
+-f: Specify the name of the archive file.
+-z: Compress the archive with gzip.
+-j: Compress the archive with bzip2.
+-J: Compress the archive with xz.
+-t: List the contents of an archive.
+-r: Append files to an existing archive.
+-u: Update files in an archive if they are newer.
