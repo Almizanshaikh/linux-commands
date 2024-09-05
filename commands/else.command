@@ -16,8 +16,7 @@ String comparisons:
 -z: String is null (zero length)
 -n: String is not null
 
-example
-
+Example
 Check if a number is positive
 
 num=5
@@ -26,4 +25,3 @@ if [ $num -gt 0 ]; then
 else
   echo "The number is not positive"
 fi
-
