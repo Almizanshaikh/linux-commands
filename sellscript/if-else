@@ -1,0 +1,15 @@
+#!/bin/bash
+
+a=3
+b=8
+c=2
+
+if [ $a -gt $b -a $a -gt $c ]
+then
+echo "a is greater then b and c"
+elif [ $b -gt $a -a $b -gt $c ]
+then
+echo "b is greater then a and c"
+else
+echo "c is greater then a and b"
+fi
