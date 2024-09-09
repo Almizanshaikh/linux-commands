@@ -1,0 +1,18 @@
+#!/bin/bash
+
+a=4
+b=8
+c=2
+
+if [ $a -gt 0 ]
+then 
+if (( a % 4 == 0 ))
+then 
+echo "$a is even number"
+else
+echo "$a is odd number"
+fi
+else 
+echo "please enter the possitive number"
+fi
+
